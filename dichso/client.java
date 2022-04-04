@@ -47,65 +47,49 @@ public class client extends Thread{
 					buffWrite.write("One");
 					buffWrite.flush();
 				}
-				else {
-					if (chuoiGui.equals("2"))
+				else if (chuoiGui.equals("2"))
 					{
 						buffWrite.write("Two");
 						buffWrite.flush();
 					}
-					else {
-						if (chuoiGui.equals("3"))
+					else if (chuoiGui.equals("3"))
 						{
 							buffWrite.write("Three");
 							buffWrite.flush();
 						}
-						else {
-							if (chuoiGui.equals("4"))
+						else if (chuoiGui.equals("4"))
 							{
 								buffWrite.write("Four");
 								buffWrite.flush();
 							}
-							else {
-								if (chuoiGui.equals("5"))
+							else if (chuoiGui.equals("5"))
 								{
 									buffWrite.write("Five");
 									buffWrite.flush();
 								}
-								else {
-									if (chuoiGui.equals("6"))
+								else if (chuoiGui.equals("6"))
 									{
 										buffWrite.write("Six");
 										buffWrite.flush();
 									}
-									else {
-										if (chuoiGui.equals("7"))
+									else if (chuoiGui.equals("7"))
 										{
 											buffWrite.write("Seven");
 											buffWrite.flush();
 										}
-										else {
-											if (chuoiGui.equals("8"))
+										else if (chuoiGui.equals("8"))
 											{
 												buffWrite.write("Eight");
 												buffWrite.flush();
 											}
-											else {
-												if (chuoiGui.equals("9"))
+											else if (chuoiGui.equals("9"))
 												{
 													buffWrite.write("Nine");
 													buffWrite.flush();
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
+												}	
 				if(chuoiGui.equals("10")) break;
 			}				
-			//Dong socket
+		
 			socketClient.close();
 		} catch (Exception e) {
 			// TODO: handle exception
