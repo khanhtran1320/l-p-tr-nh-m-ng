@@ -35,6 +35,7 @@ public class client extends Thread{
 			
 			while (true) {
 				//Nhan du lieu
+				System.out.print("mời nhập số tư 0->10");
 				String chuoiNhan = buffRead.readLine();
 				System.out.print(chuoiNhan);
 				//Gui tra
