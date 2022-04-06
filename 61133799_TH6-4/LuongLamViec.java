@@ -48,25 +48,35 @@ public class LuongLamViec extends Thread{
 				String chuoiNhan=buffR.readLine();
 				System.out.print("\n"+chuoiNhan);
 				if(chuoiNhan.equals("1")) {
-					GuiFile("D:\\1.txt");}
+					GuiFile("D:\\1.txt");
+					buffW.flush();}
 				if(chuoiNhan.equals("2")) {
 					GuiFile("D:\\2.txt");
+					buffW.flush();
 				}if(chuoiNhan.equals("3")) {
 					GuiFile("D:\\3.txt");
+					buffW.flush();
 				}if(chuoiNhan.equals("4")) {
 					GuiFile("D:\\4.txt");
+					buffW.flush();
 				}if(chuoiNhan.equals("5")) {
 					GuiFile("D:\\5.txt");
+					buffW.flush();
 				}if(chuoiNhan.equals("6")) {
 					GuiFile("D:\\6.txt");
+					buffW.flush();
 				}if(chuoiNhan.equals("7")) {
 					GuiFile("D:\\7.txt");
+					buffW.flush();
 				}if(chuoiNhan.equals("8")) {
 					GuiFile("D:\\8.txt");
+					buffW.flush();
 				}if(chuoiNhan.equals("9")) {
 					GuiFile("D:\\9.txt");
+					buffW.flush();
 				}if(chuoiNhan.equals("10")) {
 					GuiFile("D:\\10.txt");
+					buffW.flush();
 				}
 				socketClient.close();
 			}
